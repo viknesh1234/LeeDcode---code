@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PalindromeNumber {
     public static boolean isPalindrome(int x) {
-        // Negative numbers and numbers ending in 0 (except 0 itself) are not palindromes
+
         if (x < 0 || (x % 10 == 0 && x != 0)) {
             return false;
         }
@@ -10,13 +10,13 @@ public class PalindromeNumber {
         int revertedNumber = 0;
         int original = x;
 
-        // Reverse half of the number
+
         while (x > revertedNumber) {
             revertedNumber = revertedNumber * 10 + x % 10;
             x /= 10;
         }
 
-        // A number is a palindrome if the reversed half is equal to the original half
+        
         return x == revertedNumber || x == revertedNumber / 10;
     }
 

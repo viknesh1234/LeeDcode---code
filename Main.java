@@ -56,7 +56,7 @@ public class Main {
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
 
 
-        Solution solution = new Solution();
+        ClimbStairs solution = new ClimbStairs();
         ListNode result = solution.addTwoNumbers(l1, l2);
 
         System.out.print("Result: ");

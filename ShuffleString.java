@@ -22,7 +22,7 @@ public class ShuffleString {
             indices[i] = scanner.nextInt();
         }
 
-        // Calling the function and printing the result
+        
         String shuffledString = restoreString(s, indices);
         System.out.println("Shuffled String: " + shuffledString);
 

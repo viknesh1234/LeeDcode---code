@@ -16,7 +16,7 @@ class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
         
-        // Test case
+       
         String[] strs = {"alic3", "bob", "3", "4", "00000"};
         System.out.println("Maximum Value: " + solution.maximumValue(strs));
     }

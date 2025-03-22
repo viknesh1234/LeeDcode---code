@@ -10,7 +10,7 @@ class CountingBits {
     }
 
     public static void main(String[] args) {
-        int n = 5;  // Change this value to test different cases
+        int n = 5;  
         int[] result = countBits(n);
         
         System.out.println("Input: n = " + n);

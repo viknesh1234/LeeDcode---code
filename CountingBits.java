@@ -8,7 +8,6 @@ class CountingBits {
         }
         return f;
     }
-
     public static void main(String[] args) {
         int n = 5;  
         int[] result = countBits(n);

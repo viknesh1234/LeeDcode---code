@@ -11,8 +11,7 @@ public class MissingNumber {
 
         return total - sum;
     }
-
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         // Example input
         int[] nums = {3, 0, 1};
 

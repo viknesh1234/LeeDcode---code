@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RobotReturn {
 
-    // Solution class as per LeetCode format
+    
     static class Solution {
         public boolean judgeCircle(String moves) {
             int x = 0, y = 0;
@@ -18,7 +18,7 @@ public class RobotReturn {
         }
     }
 
-    // Main method to run the program
+  
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
